@@ -17,12 +17,13 @@ A Flutter-based application designed to integrate with a humanoid robot named AI
 
 ## Screenshots
 
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-  <img src="./Screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Pro.png" alt="Home Screen" width="150"/>
-  <img src="./Screenshots/Simulator%20Screenshot%20Settings%20-%20iPhone%2015%20Pro.png" alt="Settings Screen" width="150"/>
-  <img src="./Screenshots/Simulator%20Screenshot%20Chat%20-%20iPhone%2015%20Pro.png" alt="Chat Screen" width="150"/>
-  <img src="./Screenshots/Simulator%20Screenshot%20Logs-%20iPhone%2015%20Pro.png" alt="Logs Screen" width="150"/>
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
+  <img src="./Screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Pro.png" alt="Home Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/Simulator%20Screenshot%20Settings%20-%20iPhone%2015%20Pro.png" alt="Settings Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/Simulator%20Screenshot%20Chat%20-%20iPhone%2015%20Pro.png" alt="Chat Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/Simulator%20Screenshot%20Logs-%20iPhone%2015%20Pro.png" alt="Logs Screen" width="150" style="margin: 0 5px;"/>
 </div>
+
 
 ## Installation
 
