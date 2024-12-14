@@ -17,7 +17,9 @@ A Flutter-based application designed to integrate with a humanoid robot named AI
 
 ## Screenshots
 
-[Include relevant screenshots of your app]
+### Home Screen
+![Simulator Screenshot](./Screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Pro.png)
+
 
 ## Installation
 
