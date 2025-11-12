@@ -1,0 +1,41 @@
+# ============================================
+# AIR Mobile App - Environment Variables
+# ============================================
+# Copy this file to .env and fill in your actual values
+# Command: cp env_temp .env
+
+# ============================================
+# OpenAI Configuration
+# ============================================
+OPENAI_API_KEY=sk-your-openai-api-key-here
+
+# ============================================
+# Python Backend Server
+# ============================================
+PYTHON_SERVER_URL=http://localhost:5000
+
+# ============================================
+# Task Management Server
+# ============================================
+TASK_SERVER_URL=http://192.168.247.31:5002
+
+# ============================================
+# PC Integration Server
+# ============================================
+FILE_MANAGEMENT_URL=http://192.168.1.4:5003
+
+# ============================================
+# WhatsApp Integration Server
+# ============================================
+WHATSAPP_SERVER_URL=http://192.168.1.5:8767
+
+# ============================================
+# Email Integration Server
+# ============================================
+EMAIL_SERVER_URL=http://localhost:5004
+
+# ============================================
+# WebSocket ML Server (Camera Processing)
+# ============================================
+WEBSOCKET_HOST=localhost
+WEBSOCKET_PORT=8766
