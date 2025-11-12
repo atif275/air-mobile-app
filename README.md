@@ -18,17 +18,17 @@ A Flutter-based application designed to integrate with a humanoid robot named AI
 ## Screenshots
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 10px;">
-  <img src="./Screenshots/Simulator\%20ScreenshotSettings\%20-\%20iPhone\%2015\%20Pro.PNG" alt="Settings" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorChatPage\%20-\%20iPhone\%2015\%20Pro.PNG" alt="Chat Page" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorEmail-integration-\%20iPhone\%2015\%20Pro.PNG" alt="Email Integration" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorHomePage-head1\%20-\%20iPhone\%2015\%20Pro.PNG" alt="HomePage Head1" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorHomePage-head2\%20-\%20iPhone\%2015\%20Pro.PNG" alt="HomePage Head2" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorLogin\%20-\%20iPhone\%2015\%20Pro.PNG" alt="Login Screen" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorLogs-\%20iPhone\%2015\%20Pro.png" alt="Logs Screen" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorPC-integration-\%20iPhone\%2015\%20Pro.PNG" alt="PC Integration" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorSignup\%20-\%20iPhone\%2015\%20Pro.PNG" alt="Signup Screen" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorTask-management-\%20iPhone\%2015\%20Pro.PNG" alt="Task Management" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorWhatsapp-integration-\%20iPhone\%2015\%20Pro.PNG" alt="Whatsapp Integration" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/Simulator%20ScreenshotSettings%20-%20iPhone%2015%20Pro.PNG" alt="Settings Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/SimulatorChatPage%20-%20iPhone%2015%20Pro.PNG" alt="Chat Page Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/SimulatorEmail-integration-%20iPhone%2015%20Pro.PNG" alt="Email Integration Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/SimulatorHomePage-head1%20-%20iPhone%2015%20Pro.PNG" alt="HomePage Head1 Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/SimulatorHomePage-head2%20-%20iPhone%2015%20Pro.PNG" alt="HomePage Head2 Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/SimulatorLogin%20-%20iPhone%2015%20Pro.PNG" alt="Login Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/SimulatorLogs-%20iPhone%2015%20Pro.png" alt="Logs Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/SimulatorPC-integration-%20iPhone%2015%20Pro.PNG" alt="PC Integration Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/SimulatorSignup%20-%20iPhone%2015%20Pro.PNG" alt="Signup Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/SimulatorTask-management-%20iPhone%2015%20Pro.PNG" alt="Task Management Screen" width="150" style="margin: 0 5px;"/>
+  <img src="./Screenshots/SimulatorWhatsapp-integration-%20iPhone%2015%20Pro.PNG" alt="Whatsapp Integration Screen" width="150" style="margin: 0 5px;"/>
 </div>
 
 
