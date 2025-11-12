@@ -28,7 +28,6 @@ A Flutter-based application designed to integrate with a humanoid robot named AI
   <img src="./Screenshots/SimulatorWhatsapp-integration-%20iPhone%2015%20Pro.PNG" alt="Whatsapp Integration Screen" width="150" style="margin: 0 5px;"/>
   <img src="./Screenshots/SimulatorEmail-integration-%20iPhone%2015%20Pro.PNG" alt="Email Integration Screen" width="150" style="margin: 0 5px;"/>
   <img src="./Screenshots/SimulatorPC-integration-%20iPhone%2015%20Pro.PNG" alt="PC Integration Screen" width="150" style="margin: 0 5px;"/>
-  <img src="./Screenshots/SimulatorLogs-%20iPhone%2015%20Pro.png" alt="Logs Screen" width="150" style="margin: 0 5px;"/>
 </div>
 
 
