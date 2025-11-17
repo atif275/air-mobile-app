@@ -62,25 +62,23 @@ Future<void> _requestInitialPermissions() async {
     name: 'Permissions'
   );
 
-  // Request other permissions based on platform
-  if (Platform.isIOS) {
-    final permissions = [
-      Permission.camera,
-      Permission.microphone,
-      Permission.speech,
-    ];
+  // Request camera, microphone, and speech permissions (needed for both platforms)
+  final permissions = [
+    Permission.camera,
+    Permission.microphone,
+    if (Platform.isIOS) Permission.speech,
+  ];
 
-    for (var permission in permissions) {
-      final status = await permission.request();
-      developer.log(
-        '${permission.toString()} status: ${status.name}',
-        name: 'Permissions'
-      );
-    }
+  for (var permission in permissions) {
+    final status = await permission.request();
+    developer.log(
+      '${permission.toString()} status: ${status.name}',
+      name: 'Permissions'
+    );
   }
 
-  // Check if background processing is enabled
-  if (Platform.isIOS) {
+  // Request battery optimization permission (more relevant for Android)
+  if (Platform.isAndroid) {
     final backgroundStatus = await Permission.ignoreBatteryOptimizations.request();
     developer.log(
       'Background processing status: ${backgroundStatus.name}',

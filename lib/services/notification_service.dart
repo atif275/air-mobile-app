@@ -2,7 +2,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:workmanager/workmanager.dart';
 import 'package:timezone/timezone.dart' as tz;
 import 'package:timezone/data/latest.dart' as tz;
-import 'package:flutter_timezone/flutter_timezone.dart';
+// Removed flutter_timezone import - using timezone package directly
 import 'package:permission_handler/permission_handler.dart';
 import 'dart:developer' as developer;
 import 'dart:io' show Platform;
@@ -33,11 +33,14 @@ class NotificationService {
     // Initialize timezone
     try {
       tz.initializeTimeZones();
-      final String timeZoneName = await FlutterTimezone.getLocalTimezone();
-      tz.setLocalLocation(tz.getLocation(timeZoneName));
-      developer.log('NotificationService: Timezone initialized to $timeZoneName', name: 'NotificationService');
+      // tz.local will automatically use the system's local timezone
+      developer.log('NotificationService: Timezone initialized (using tz.local)', name: 'NotificationService');
     } catch (e) {
       developer.log('NotificationService: Error initializing timezone: $e', name: 'NotificationService', error: e);
+      // Ensure timezones are initialized
+      try {
+        tz.initializeTimeZones();
+      } catch (_) {}
     }
 
     // Initialize local notifications
@@ -47,9 +50,6 @@ class NotificationService {
         requestAlertPermission: false, // We'll request permissions separately
         requestBadgePermission: false,
         requestSoundPermission: false,
-        onDidReceiveLocalNotification: (id, title, body, payload) async {
-          developer.log('NotificationService: Received local notification - $title', name: 'NotificationService');
-        },
         notificationCategories: [
           DarwinNotificationCategory(
             'taskActions',
@@ -300,7 +300,6 @@ class NotificationService {
         tz.TZDateTime.from(scheduledDate, tz.local),
         notificationDetails,
         androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
-        uiLocalNotificationDateInterpretation: UILocalNotificationDateInterpretation.absoluteTime,
         payload: id.toString(),
       );
 
